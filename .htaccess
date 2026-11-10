@@ -1,0 +1,27 @@
+RewriteEngine On
+
+# Override DB_NAME for localhost/ds3/ access (local.ds3.com vhost handles this via SetEnv)
+SetEnv DB_NAME ds3
+SetEnv AUDIT_DB_NAME ds3_audit
+
+# Route all API v2 requests to the API index
+RewriteRule ^api/v2/(.*)$ api/v2/index.php [QSA,L]
+
+# Root redirect to admin login
+RewriteRule ^$ v2/portals/admin/login.php [L]
+
+# Extensionless portal page URLs — append .php if file exists and no extension given
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [QSA,L]
+
+# Block access to sensitive files
+<FilesMatch "(^config\.php$|^constant\.php$|\.env$|\.log$)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
+# Block access to sensitive directories
+RewriteRule (^|/)(database-migrate|storage|\.claude)/ - [F,L]

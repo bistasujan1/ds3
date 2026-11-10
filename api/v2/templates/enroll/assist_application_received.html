@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{subject}}</title>
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body, table, td, a { 
+            -webkit-text-size-adjust: 100%; 
+            -ms-text-size-adjust: 100%; 
+        }
+        table, td { 
+            mso-table-lspace: 0pt; 
+            mso-table-rspace: 0pt; 
+        }
+        img { 
+            -ms-interpolation-mode: bicubic; 
+            border: 0; 
+            height: auto; 
+            line-height: 100%; 
+            outline: none; 
+            text-decoration: none; 
+        }
+
+        /* RESET STYLES */
+        table { 
+            border-collapse: collapse !important; 
+            border: 0;
+            width: 100%;
+        }
+
+        .success-icon-wrapper{
+            width: 15%;
+        }
+        td {
+            padding: 0;
+        }
+        body { 
+            height: 100% !important; 
+            margin: 0 !important; 
+            padding: 0 !important; 
+            width: 100% !important; 
+            background-color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] { 
+            margin: 0 !important; 
+        }
+
+        /* EMAIL CONTAINER */
+        .email-wrapper {
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .email-container {
+            max-width: 800px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* ALIGNMENT */
+        .align-center {
+            text-align: center;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .valign-middle {
+            vertical-align: middle;
+        }
+
+        .valign-top {
+            vertical-align: top;
+        }
+
+        /* PADDING UTILITIES */
+        .no-padding {
+            padding: 0;
+        }
+
+        /* BACKGROUND COLORS */
+        .bg-white {
+            background-color: #ffffff;
+        }
+
+        .bg-hero {
+            background-color: #DA145F;
+        }
+
+        /* PREHEADER */
+        .preheader {
+            display: none;
+            font-size: 1px;
+            color: #fefefe;
+            line-height: 1px;
+            max-height: 0px;
+            max-width: 0px;
+            opacity: 0;
+            overflow: hidden;
+        }
+
+        /* HERO SECTION */
+        .hero-section {
+            padding: 40px 20px;
+        }
+
+        .logo-header {
+            margin: 0;
+            text-align: center;
+        }
+
+        .hero-card {
+            background: #ffffff;
+            border: 2px solid #f0f0f0;
+            border-radius: 20px;
+            padding: 11px 24px;
+            text-align: center;
+            color: #2c3e50;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        }
+        
+        .hero-card .logo-header {
+            margin-bottom: 32px;
+        }
+
+        .success-icon-wrapper {
+            margin: 0 auto 24px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .success-icon-circle {
+            width: 100px;
+            height: 100px;
+            background: #DA145F;
+            border: none;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+            margin: 0 auto;
+        }
+
+        .success-icon {
+            color: #ffffff;
+            font-size: 50px;
+            line-height: 100px;
+            font-weight: 900;
+            display: inline-block;
+            vertical-align: middle;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-title {
+            font-size: 42px;
+            font-weight: 800;
+            margin: 0 0 16px 0;
+            color: #2c3e50;
+            letter-spacing: -0.5px;
+            line-height: 1;
+        }
+
+        /* CONTENT SECTION */
+        .content-section {
+            padding: 0px 20px 30px 20px;
+        }
+
+        .content-section-bottom {
+            padding: 0px 20px 40px 20px;
+        }
+
+        .content-card {
+            background-color: #ffffff;
+            border: 2px solid #f0f0f0;
+            border-radius: 16px;
+            padding: 40px;
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        .content-text {
+            margin: 0 0 24px 0;
+            color: #2c3e50;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* CONTACT BOX */
+        .contact-box {
+            margin: 0;
+            background: linear-gradient(135deg, #fef5f9 0%, #f8f4fb 100%);
+            border-radius: 12px;
+            border-left: 4px solid #DA145F;
+            width: 100%;
+        }
+
+        .contact-box-inner {
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .contact-icon-wrapper {
+            padding-right: 12px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .contact-icon {
+            color: #DA145F;
+            font-size: 24px;
+        }
+
+        .contact-text-wrapper {
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .contact-text {
+            margin: 0;
+            color: #4a4a4a;
+            font-size: 16px;
+        }
+
+        .contact-link {
+            color: #DA145F;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* LENDING CLUB SECTION */
+        .lending-card {
+            background-color: #ffffff;
+            border: 2px solid #f0f0f0;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .lending-accent {
+            height: 5px;
+            background: linear-gradient(90deg, #DA145F 0%, #926EC0 100%);
+            width: 100%;
+        }
+
+        .lending-content {
+            padding: 40px;
+        }
+
+        .lending-logo-wrapper {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .lending-logo {
+            max-width: 250px;
+            height: auto;
+            max-height: 70px;
+        }
+
+        .lending-heading {
+            color: #2c3e50;
+            font-weight: 700;
+            font-size: 26px;
+            margin: 0 0 16px 0;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .lending-heading-accent {
+            color: #DA145F;
+        }
+
+        .lending-description {
+            margin: 0 0 40px 0;
+            color: #6c757d;
+            font-size: 17px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .lending-button-wrapper {
+            text-align: center;
+        }
+
+        .lending-button {
+            display: inline-block;
+            background: #DA145F;
+            color: #ffffff;
+            border: none;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 8px 25px rgba(218, 20, 95, 0.3);
+        }
+
+        /* FOOTER SECTION */
+        .footer-section {
+            padding: 0px 20px 30px 20px;
+        }
+
+        .footer-content {
+            padding: 20px 30px 30px 30px;
+            color: #6c757d;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        .footer-text {
+            margin: 0;
+            color: #6c757d;
+        }
+
+        .footer-address {
+            padding: 0px 30px 30px 30px;
+            color: #6c757d;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        .footer-address p {
+            margin: 0;
+        }
+
+        /* MOBILE STYLES */
+        @media screen and (max-width: 600px) {
+            .hero-title {
+                font-size: 32px !important;
+                line-height: 1 !important;
+            }
+
+            .hero-card {
+                padding: 40px 24px !important;
+            }
+
+            .content-card {
+                padding: 30px 24px !important;
+                font-size: 16px !important;
+            }
+
+            .content-text {
+                font-size: 16px !important;
+            }
+
+            .lending-content {
+                padding: 30px 24px !important;
+            }
+
+            .lending-heading {
+                font-size: 22px !important;
+            }
+
+            .lending-description {
+                font-size: 15px !important;
+            }
+
+            .footer-content,
+            .footer-address {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div class="preheader">
+    Your application has been submitted successfully.  We notify you by email within 48 hours if you have qualified for additional discounts.
+</div>
+
+<table class="email-wrapper">
+    <!-- HERO -->
+    <tr>
+        <td class="hero-section bg-white align-center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="800">
+            <tr>
+            <td align="center" valign="top" width="800">
+            <![endif]-->
+            <table class="email-container">
+                <tr>
+                    <td class="bg-white align-center" style="padding: 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                        <td style="background: #ffffff; border: 2px solid #f0f0f0; border-radius: 20px; padding: 40px 24px;">
+                        <![endif]-->
+                        <div class="hero-card">
+                            <h2 class="logo-header">
+                                <img src="{{ASSETS_PATH}}assets/img/reunite_clr.png" alt="ReUnite">
+                            </h2>
+                            <table class="success-icon-wrapper align-center">
+                                <tr>
+                                    <td class="success-icon-circle align-center valign-middle" style="width: 100px; height: 100px; background: #DA145F; border-radius: 50%;">
+                                        <span class="success-icon" style="color: #ffffff; font-size: 50px; line-height: 100px; font-weight: 900; font-family: Arial, sans-serif;">✓</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <h1 class="hero-title">Thank You!</h1>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- COPY BLOCK -->
+    <tr>
+        <td class="content-section bg-white align-center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="800">
+            <tr>
+            <td align="center" valign="top" width="800">
+            <![endif]-->
+            <table class="email-container">
+              <!-- COPY -->
+              <tr>
+                <td class="bg-white align-left no-padding">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td style="border: 2px solid #f0f0f0; border-radius: 16px; padding: 40px;">
+                  <![endif]-->
+                  <div class="content-card">
+                    <p class="content-text">Your ReUnite Assist application has been successfully submitted. Please check your inbox for a confirmation email. We will process your application and email you within 48 hours.</p>
+                    <p>To track the status of your application, please {{status_link_anchor}}.</p>
+                    <!-- Contact Box -->
+                    <table class="contact-box">
+                      <tr>
+                        <td class="contact-box-inner align-center valign-middle">
+                          <table align="center">
+                            <tr>
+                              <td class="contact-icon-wrapper align-center valign-middle">
+                                <span class="contact-icon">✉</span>
+                              </td>
+                              <td class="contact-text-wrapper align-left valign-middle">
+                                <p class="contact-text">For any additional questions please email us at <a href="mailto:assist@reuniterx.com" target="_blank" class="contact-link">assist@reuniterx.com</a></p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- LENDING CLUB SECTION -->
+    <tr>
+        <td class="content-section-bottom bg-white align-center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="800">
+            <tr>
+            <td align="center" valign="top" width="800">
+            <![endif]-->
+            <table class="email-container">
+              <!-- COPY -->
+              <tr>
+                <td class="bg-white align-center valign-top no-padding">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td style="border: 2px solid #f0f0f0; border-radius: 16px; overflow: hidden;">
+                  <![endif]-->
+                  <div class="lending-card">
+                    <!-- Top Accent Border -->
+                    <div class="lending-accent"></div>
+
+                    <div class="lending-content">
+                      <div class="lending-logo-wrapper">
+                        <img src="{{ASSETS_PATH}}assets/img/ReUniteHappenBank.png" width="250" alt="ReUnite Happen Bank" class="lending-logo">
+                      </div>
+                      <h3 class="lending-heading">
+                        <span class="lending-heading-accent">See if you prequalify for financing for your fertility medications with a simple online application</span>
+                      </h3>
+                      <p class="lending-description">View all the payment options you prequalify for with no impact to your credit until you select an offer and move forward.</p>
+                      <div class="lending-button-wrapper">
+                        {{lendingclub_link_anchor}}
+                      </div>
+                    </div>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- FOOTER -->
+    <tr>
+        <td class="footer-section bg-white align-center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="800">
+            <tr>
+            <td align="center" valign="top" width="800">
+            <![endif]-->
+            <table class="email-container">
+              <!-- PERMISSION REMINDER -->
+              <tr>
+                <td class="footer-content bg-white align-left">
+                  <p class="footer-text">This is a transactional email from ReUnite Rx. Please note that you may receive transactional emails associated with your account with ReUnite Rx, whether you elect to receive promotional email or not.</p>
+                </td>
+              </tr>
+              <!-- ADDRESS -->
+              <tr>
+                <td class="footer-address bg-white align-left">
+                  <p class="footer-text">ReUnite Rx, LLC<br>2290 Springlake Road, Suite 100<br>Farmers Branch, TX 75234</p>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

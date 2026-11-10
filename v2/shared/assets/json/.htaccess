@@ -1,0 +1,12 @@
+# Public autocomplete lookup data — override root .htaccess JSON deny.
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.json$">
+        Require all granted
+    </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+    <FilesMatch "\.json$">
+        Order allow,deny
+        Allow from all
+    </FilesMatch>
+</IfModule>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{header_title}}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 20px;
+            color: #000 !important;
+            font-size: 14px;
+        }
+        h1 {
+            color: black;
+            font-weight: bold;
+            font-size: 18pt;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: black;
+            font-weight: bold;
+            font-size: 10.5pt;
+            margin: 0;
+        }
+        h5 {
+            color: black;
+            font-size: 8pt;
+            margin-bottom: 10px;
+        }
+        p {
+            color: black;
+            font-size: 9pt;
+            line-height: 1.4;
+            margin: 5px 0;
+        }
+        .s1 {
+            font-weight: bold;
+            font-size: 9pt;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .section-table {
+            width: 100%;
+            border-collapse: separate;
+            margin-bottom: 20px;
+        }
+        .section-cell {
+            vertical-align: top;
+            padding: 10px;
+            border: 1px solid #ddd;
+            width: 33.33%;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+            font-size: 9pt;
+        }
+        .data-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .section-table td.hide{
+            display:none;
+        }
+
+        .mg-top{
+            margin-top:30px;
+        }
+
+        h1 span {
+            font-weight: normal;
+            font-size: 12pt;
+            text-transform: lowercase;
+        }
+
+    </style>
+</head>
+<body>
+    <h6 style="margin:0; padding:0;">{{prescription_unique_id}}</h6>
+    <h5 style="margin-top:2px; padding:0;">{{transfer_date_time}}</h5>
+    <h1> {{header_title}} <span>{{stim_start}}</span></h1>
+
+    <table class="section-table">
+        <tr>
+            <td class="section-cell">
+                <h5>Patient:</h5>
+                <br>
+
+                <p><strong>{{patient_name}}</strong></p>
+                <p>{{patient_address}}</p>
+                <p>{{patient_city_state_zip}}</p>
+                <p>Phone: {{patient_phone}}</p>
+                <p>DOB: {{patient_dob_age}}</p>
+                {{patient_insurance}}
+            </td>
+            <td class="section-cell">
+                <h5>Prescriber:</h5>
+                <br>
+                <p><strong>{{writtenByPrescriberPioneer}}</strong></p>
+                <p>{{supervisingPhysician}}</p>
+                <p>{{clinic_address}}</p>
+                <p>{{clinic_city_state_zip}}</p>
+                <p>Phone: {{clinic_phone_number}}</p>
+                <p>DEA: {{writtenByPrescriberDEA}}</p>
+                <p>NPI: {{physician_npi}}</p>
+            </td>
+            {{receiving_rx}}
+            <td class="section-cell">
+                <h5>Transferring Pharmacy:</h5>
+                <br>
+                <p><strong>Cloud Rx</strong></p>
+                <p>4200 Regent Blvd Ste 104, Irving, TX 75063</p>
+                <p>Phone: (888) 362-9587</p>
+                <p>NPI: 1518578046</p>
+                <p>RPH: Stephanie Eamir</p>
+                <p>Total Prescriptions: {{total_prescription}}</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="data-table">
+    <tr>
+        <th>Rx # / Orig Date</th>
+        <th>Drug / SIG</th>
+        <th>Qty / Refills</th>
+        <th>Note</th>
+        <th>Last Fill</th>
+        <th>Prescriber</th>
+    </tr>
+
+    {{prescriptions}}
+
+    </table>
+
+    {{allergies_section}}
+
+
+    </body>
+</html>

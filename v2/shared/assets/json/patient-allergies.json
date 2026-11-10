@@ -1,0 +1,138 @@
+[
+    {
+        "value": "Adhesive",
+        "label": "Adhesive"
+    },
+    {
+        "value": "Aspirin",
+        "label": "Aspirin"
+    },
+    {
+        "value": "Chocolate",
+        "label": "Chocolate"
+    },
+    {
+        "value": "Codeine",
+        "label": "Codeine"
+    },
+    {
+        "value": "Fish",
+        "label": "Fish"
+    },
+    {
+        "value": "Gluten",
+        "label": "Gluten"
+    },
+    {
+        "value": "Ibuprofen",
+        "label": "Ibuprofen"
+    },
+    {
+        "value": "Iodine",
+        "label": "Iodine"
+    },
+    {
+        "value": "Lactose",
+        "label": "Lactose"
+    },
+    {
+        "value": "Latex",
+        "label": "Latex"
+    },
+    {
+        "value": "Neomycin",
+        "label": "Neomycin"
+    },
+    {
+        "value": "Peanut",
+        "label": "Peanut"
+    },
+    {
+        "value": "Sesame oil",
+        "label": "Sesame oil"
+    },
+    {
+        "value": "Shellfish",
+        "label": "Shellfish"
+    },
+    {
+        "value": "Soy",
+        "label": "Soy"
+    },
+    {
+        "value": "Tramadol",
+        "label": "Tramadol"
+    },
+    {
+        "value": "Tylenol",
+        "label": "Tylenol"
+    },
+    {
+        "value": "Amoxicillin",
+        "label": "Amoxicillin"
+    },
+    {
+        "value": "Amoxicillin/clavulanic acid",
+        "label": "Amoxicillin/clavulanic acid"
+    },
+    {
+        "value": "Azithromycin",
+        "label": "Azithromycin"
+    },
+    {
+        "value": "Benzodiazepines",
+        "label": "Benzodiazepines"
+    },
+    {
+        "value": "Cephalexin",
+        "label": "Cephalexin"
+    },
+    {
+        "value": "Cephalosporin",
+        "label": "Cephalosporin"
+    },
+    {
+        "value": "Ciprofloxacin",
+        "label": "Ciprofloxacin"
+    },
+    {
+        "value": "Clindamycin",
+        "label": "Clindamycin"
+    },
+    {
+        "value": "Doxycycline",
+        "label": "Doxycycline"
+    },
+    {
+        "value": "Erythromycin",
+        "label": "Erythromycin"
+    },
+    {
+        "value": "Macrolides",
+        "label": "Macrolides"
+    },
+    {
+        "value": "Penicillin",
+        "label": "Penicillin"
+    },
+    {
+        "value": "Quinolones",
+        "label": "Quinolones"
+    },
+    {
+        "value": "Sulfa",
+        "label": "Sulfa"
+    },
+    {
+        "value": "Tetracycline",
+        "label": "Tetracycline"
+    },
+    {
+        "value": "Dye",
+        "label": "Dye"
+    },
+    {
+        "value": "I have allergies",
+        "label": "I have allergies"
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php -l *)",
+      "Bash(php api/v2/tests/run_all.php)",
+      "Bash(php api/v2/tests/*.php)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(find * -name *.php -type f)",
+      "Bash(grep -r * api/)",
+      "Bash(grep -r * v2/)",
+      "Bash(ls *)",
+      "Bash(php -v)",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Select-String *)"
+    ],
+    "deny": [],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT_FILE_PATH\" | grep -q '\\.php$'; then php -l \"$CLAUDE_TOOL_INPUT_FILE_PATH\" 2>&1 | head -5; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

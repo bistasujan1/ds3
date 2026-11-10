@@ -1,0 +1,1005 @@
+{
+    "status": 200,
+    "msg": [
+        {
+            "td1": "Levothyroxine",
+            "td2": "Synthroid",
+            "td3": "Hormone replacement"
+        },
+        {
+            "td1": "Hydrocodone\/APAP",
+            "td2": "Vicodin",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Amoxicillin",
+            "td2": "Amoxil",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Lisinopril",
+            "td2": "Prinivil",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Esomeprazole",
+            "td2": "Nexium",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Atorvastatin",
+            "td2": "Lipitor",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Simvastatin",
+            "td2": "Zocor",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Clopidogrel",
+            "td2": "Plavix",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Montelukast",
+            "td2": "Singulair",
+            "td3": "Anti-asthmatic"
+        },
+        {
+            "td1": "Rosuvastatin",
+            "td2": "Crestor",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Metoprolol",
+            "td2": "Lopressor",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Escitalopram",
+            "td2": "Lexapro",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Azithromycin",
+            "td2": "Zithromax",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Albuterol",
+            "td2": "ProAir HFA",
+            "td3": "Anti-asthmatic"
+        },
+        {
+            "td1": "Hydrochlorothiazide",
+            "td2": "HCTZ",
+            "td3": "Diuretic"
+        },
+        {
+            "td1": "Metformin",
+            "td2": "Glucophage",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Sertraline",
+            "td2": "Zoloft",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Ibuprofen",
+            "td2": "Advil",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Zolpidem",
+            "td2": "Ambien",
+            "td3": "Sleep aid"
+        },
+        {
+            "td1": "Furosemide",
+            "td2": "Lasix",
+            "td3": "Diuretic"
+        },
+        {
+            "td1": "Omeprazole",
+            "td2": "Prilosec",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Trazodone",
+            "td2": "Desyrel",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Valsartan",
+            "td2": "Diovan",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Tramadol",
+            "td2": "Ultram",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Duloxetine",
+            "td2": "Cymbalta",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Warfarin",
+            "td2": "Coumadin",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Amlodipine",
+            "td2": "Norvasc",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Oxycodone\/APAP",
+            "td2": "Percocet",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Quetiapine",
+            "td2": "Seroquel",
+            "td3": "Antipsychotic"
+        },
+        {
+            "td1": "Promethazine",
+            "td2": "Phenergan",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Fluticasone",
+            "td2": "Flonase",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Alprazolam",
+            "td2": "Xanax",
+            "td3": "Antianxiety"
+        },
+        {
+            "td1": "Clonazepam",
+            "td2": "Klonopin",
+            "td3": "Antianxiety"
+        },
+        {
+            "td1": "Benazepril",
+            "td2": "Lotensin",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Meloxicam",
+            "td2": "Mobic",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Citalopram",
+            "td2": "Celexa",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Cephalexin",
+            "td2": "Keflex",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Tiotropium",
+            "td2": "Spiriva",
+            "td3": "C.O.P.D."
+        },
+        {
+            "td1": "Gabapentin",
+            "td2": "Neurontin",
+            "td3": "Anticonvulsant"
+        },
+        {
+            "td1": "Aripiprazole",
+            "td2": "Abilify",
+            "td3": "Antipsychotic"
+        },
+        {
+            "td1": "Potassium",
+            "td2": "K-Tab",
+            "td3": "Electrolyte"
+        },
+        {
+            "td1": "Cyclobenzaprine",
+            "td2": "Flexeril",
+            "td3": "Muscle Relaxer"
+        },
+        {
+            "td1": "Methylprednisolone",
+            "td2": "Medrol",
+            "td3": "Anti-inflammatory steriod"
+        },
+        {
+            "td1": "Methylphenidate",
+            "td2": "Concerta",
+            "td3": "ADHD"
+        },
+        {
+            "td1": "Fexofenadine",
+            "td2": "Allegra",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Carvedilol",
+            "td2": "Coreg",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Carisoprodol",
+            "td2": "Soma",
+            "td3": "Muscle Relaxer"
+        },
+        {
+            "td1": "Digoxin",
+            "td2": "Lanoxin",
+            "td3": "Congestive Heart Failure"
+        },
+        {
+            "td1": "Memantine",
+            "td2": "Namenda",
+            "td3": "Antidementia"
+        },
+        {
+            "td1": "Atenolol",
+            "td2": "Tenormin",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Diazepam",
+            "td2": "Valium",
+            "td3": "Antianxiety"
+        },
+        {
+            "td1": "Oxycodone",
+            "td2": "OxyContin",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Risedronate",
+            "td2": "Actonel",
+            "td3": "Osteoporosis"
+        },
+        {
+            "td1": "Folic Acid",
+            "td2": "Folvite",
+            "td3": "Supplement"
+        },
+        {
+            "td1": "Olmesartan",
+            "td2": "Benicar",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Prednisone",
+            "td2": "Deltasone",
+            "td3": "Anti-inflammatory steriod"
+        },
+        {
+            "td1": "Doxycycline",
+            "td2": "Vibramycin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Alendronate",
+            "td2": "Fosamax",
+            "td3": "Osteoporosis"
+        },
+        {
+            "td1": "Pantoprazole",
+            "td2": "Protonix",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Tamsulosin",
+            "td2": "Flomax",
+            "td3": "Urinary retention"
+        },
+        {
+            "td1": "Triamterene\/HCTZ",
+            "td2": "Dyazide",
+            "td3": "Diuretic"
+        },
+        {
+            "td1": "Paroxetine",
+            "td2": "Paxil",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Buprenorphine \/ Naloxone",
+            "td2": "Suboxone",
+            "td3": "Opioid Addiction"
+        },
+        {
+            "td1": "Enalapril",
+            "td2": "Vasotec",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Lovastatin",
+            "td2": "Mevacor",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Pioglitazone",
+            "td2": "Actos",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Pravastatin",
+            "td2": "Pravachol",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Fluoxetine",
+            "td2": "Prozac",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Insulin Detemir",
+            "td2": "Levemir",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Fluconazole",
+            "td2": "Diflucan",
+            "td3": "Antifungal"
+        },
+        {
+            "td1": "Levofloxacin",
+            "td2": "Levaquin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Rivaroxaban",
+            "td2": "Xarelto",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Celecoxib",
+            "td2": "Celebrex",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Codeine \/ APAP",
+            "td2": "Tylenol #3",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Mometasone",
+            "td2": "Nasonex",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Ciprofloxacin",
+            "td2": "Cipro",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Pregabalin",
+            "td2": "Lyrica",
+            "td3": "Anticonvulsant"
+        },
+        {
+            "td1": "Insulin Aspart",
+            "td2": "Novolog",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Venlafaxine",
+            "td2": "Effexor",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Lorazepam",
+            "td2": "Ativan",
+            "td3": "Antianxiety"
+        },
+        {
+            "td1": "Ezetimibe",
+            "td2": "Zetia",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Estrogen",
+            "td2": "Premarin",
+            "td3": "Hormone replacement"
+        },
+        {
+            "td1": "Allopurinol",
+            "td2": "Zyloprim",
+            "td3": "Antigout"
+        },
+        {
+            "td1": "Penicillin",
+            "td2": "Pen VK",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Sitagliptin",
+            "td2": "Januvia",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Amitriptyline",
+            "td2": "Elavil",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Clonidine",
+            "td2": "Catapres",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Latanoprost",
+            "td2": "Xalatan",
+            "td3": "Antiglaucoma"
+        },
+        {
+            "td1": "Lisdexamfetamine",
+            "td2": "Vyvanse",
+            "td3": "ADHD"
+        },
+        {
+            "td1": "Niacin",
+            "td2": "Niaspan",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Naproxen",
+            "td2": "Aleve",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Dexlansoprazole",
+            "td2": "Dexilant",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Glyburide",
+            "td2": "Diabeta",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Olanzapine",
+            "td2": "Zyprexa",
+            "td3": "Antipsychotic"
+        },
+        {
+            "td1": "Tolterodine",
+            "td2": "Detrol",
+            "td3": "Incontinence"
+        },
+        {
+            "td1": "Ranitidine",
+            "td2": "Zantac",
+            "td3": "Antacid (H2)"
+        },
+        {
+            "td1": "Famotidine",
+            "td2": "Pepcid",
+            "td3": "Antacid (H2)"
+        },
+        {
+            "td1": "Diltiazem",
+            "td2": "Cardizem",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Insulin Glargine",
+            "td2": "Lantus",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Thyroid",
+            "td2": "Armour Thyroid",
+            "td3": "Hormone replacement"
+        },
+        {
+            "td1": "Bupropion",
+            "td2": "Wellbutrin",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Cetirizine",
+            "td2": "Zyrtec",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Topiramate",
+            "td2": "Topamax",
+            "td3": "Anticonvulsant"
+        },
+        {
+            "td1": "Valacyclovir",
+            "td2": "Valtrex",
+            "td3": "Antiviral"
+        },
+        {
+            "td1": "Eszopiclone",
+            "td2": "Lunesta",
+            "td3": "Sleep Aid"
+        },
+        {
+            "td1": "Acyclovir",
+            "td2": "Zovirax",
+            "td3": "Antiviral"
+        },
+        {
+            "td1": "Cefdinir",
+            "td2": "Omnicef",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Clindamycin",
+            "td2": "Cleocin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Colchicine",
+            "td2": "Colcrys",
+            "td3": "Antigout"
+        },
+        {
+            "td1": "Gemfibrozil",
+            "td2": "Lopid",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Guiafenesin",
+            "td2": "Robitussin",
+            "td3": "Expectorant"
+        },
+        {
+            "td1": "Glipizide",
+            "td2": "Glucotrol",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Irbesartan",
+            "td2": "Avapro",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Metoclopramide",
+            "td2": "Reglan",
+            "td3": "Antispasmodic"
+        },
+        {
+            "td1": "Losartan",
+            "td2": "Cozaar",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Meclizine",
+            "td2": "Dramamine",
+            "td3": "Antiemetic"
+        },
+        {
+            "td1": "Metronidazole",
+            "td2": "Flagyl",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Vitamin D",
+            "td2": "Caltrate",
+            "td3": "Supplement"
+        },
+        {
+            "td1": "Testosterone",
+            "td2": "AndroGel",
+            "td3": "Hormone replacement"
+        },
+        {
+            "td1": "Ropinirole",
+            "td2": "Requip",
+            "td3": "Anti-Parkinson's"
+        },
+        {
+            "td1": "Risperidone",
+            "td2": "Risperdal",
+            "td3": "Antipsychotic"
+        },
+        {
+            "td1": "Olopatadine",
+            "td2": "Patanol",
+            "td3": "Antihistamine"
+        },
+        {
+            "td1": "Moxifloxacin",
+            "td2": "Avelox",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Dexmethylphenidate",
+            "td2": "Focalin",
+            "td3": "ADHD"
+        },
+        {
+            "td1": "Enoxaparin",
+            "td2": "Lovenox",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Fentanyl",
+            "td2": "Duragesic",
+            "td3": "Analgesic"
+        },
+        {
+            "td1": "Dicyclomine",
+            "td2": "Bentyl",
+            "td3": "Antispasmodic"
+        },
+        {
+            "td1": "Bisoprolol",
+            "td2": "Zebeta",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Atomoxetine",
+            "td2": "Strattera",
+            "td3": "ADHD"
+        },
+        {
+            "td1": "Ramipril",
+            "td2": "Altace",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Temazepam",
+            "td2": "Restoril",
+            "td3": "Sleep Aid"
+        },
+        {
+            "td1": "Phentermine",
+            "td2": "Adipex P",
+            "td3": "Appetite suppressant"
+        },
+        {
+            "td1": "Quinapril",
+            "td2": "Accupril",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Sildenafil",
+            "td2": "Viagra",
+            "td3": "Erectile dysfunction"
+        },
+        {
+            "td1": "Ondansetron",
+            "td2": "Zofran",
+            "td3": "Antiemetic"
+        },
+        {
+            "td1": "Oseltamivir",
+            "td2": "Tamiflu",
+            "td3": "Antiviral"
+        },
+        {
+            "td1": "Methotrexate",
+            "td2": "Rheumatrex",
+            "td3": "Antirheumatic"
+        },
+        {
+            "td1": "Dabigatran",
+            "td2": "Pradaxa",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Budesonide",
+            "td2": "Uceris",
+            "td3": "Anti-inflammatory"
+        },
+        {
+            "td1": "Doxazosin",
+            "td2": "Cardura",
+            "td3": "Urinary retention \/\r\n Antihypertensive"
+        },
+        {
+            "td1": "Desvenlafaxine",
+            "td2": "Pristiq",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Insulin Lispro",
+            "td2": "Humalog",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Clarithromycin",
+            "td2": "Biaxin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Buspirone",
+            "td2": "Buspar",
+            "td3": "Antianxiety"
+        },
+        {
+            "td1": "Finasteride",
+            "td2": "Proscar",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Ketoconazole",
+            "td2": "Nizoral",
+            "td3": "Antifungal"
+        },
+        {
+            "td1": "Solifenacin",
+            "td2": "VESIcare",
+            "td3": "Bladder relaxant"
+        },
+        {
+            "td1": "Methadone",
+            "td2": "Dolophine",
+            "td3": "Opioid addiction"
+        },
+        {
+            "td1": "Minocycline",
+            "td2": "Minocin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Phenazopyridine",
+            "td2": "Pyridium",
+            "td3": "Analgesic (urinary)"
+        },
+        {
+            "td1": "Spironolactone",
+            "td2": "Aldactone",
+            "td3": "Diuretic"
+        },
+        {
+            "td1": "Vardenafil",
+            "td2": "Levitra",
+            "td3": "Erectile dysfunction"
+        },
+        {
+            "td1": "Clobetasol",
+            "td2": "Clovate",
+            "td3": "Anti-inflammatory steriod"
+        },
+        {
+            "td1": "Benzonatate",
+            "td2": "Tessalon",
+            "td3": "Antitussive (cough suppressant)"
+        },
+        {
+            "td1": "Divalproex",
+            "td2": "Depakote",
+            "td3": "Anticonvulsant"
+        },
+        {
+            "td1": "Dutasteride",
+            "td2": "Avodart",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Febuxostat",
+            "td2": "Uloric",
+            "td3": "Antigout"
+        },
+        {
+            "td1": "Lamotrigine",
+            "td2": "Lamictal",
+            "td3": "Antiepileptic"
+        },
+        {
+            "td1": "Nortriptyline",
+            "td2": "Pamelor",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Roflumilast",
+            "td2": "Daliresp",
+            "td3": "C.O.P.D."
+        },
+        {
+            "td1": "Rabeprazole",
+            "td2": "Aciphex",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Etanercept",
+            "td2": "Enbrel",
+            "td3": "Anti-arthritic"
+        },
+        {
+            "td1": "Nebivolol",
+            "td2": "Bystolic",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Nabumetone",
+            "td2": "Relafen",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Nifedipine",
+            "td2": "Procardia",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Nitrofurantoin",
+            "td2": "Macrobid",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Nitroglycerine",
+            "td2": "NitroStat SL",
+            "td3": "Anti-angina"
+        },
+        {
+            "td1": "Oxybutynin",
+            "td2": "Ditropan",
+            "td3": "Incontinence"
+        },
+        {
+            "td1": "Tadalifil",
+            "td2": "Cialis",
+            "td3": "Erectile dysfunction"
+        },
+        {
+            "td1": "Triamcinolone",
+            "td2": "Kenalog",
+            "td3": "Anti-inflammatory steriod"
+        },
+        {
+            "td1": "Rivastigmine",
+            "td2": "Exelon",
+            "td3": "Antidementia"
+        },
+        {
+            "td1": "Lansoprazole",
+            "td2": "Prevacid",
+            "td3": "Antacid (PPI)"
+        },
+        {
+            "td1": "Cefuroxime",
+            "td2": "Ceftin",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Methocarbamol",
+            "td2": "Robaxin",
+            "td3": "Muscle Relaxer"
+        },
+        {
+            "td1": "Travoprost",
+            "td2": "Travatan",
+            "td3": "Antiglaucoma"
+        },
+        {
+            "td1": "Lurasidone",
+            "td2": "Latuda",
+            "td3": "Antipsychotic"
+        },
+        {
+            "td1": "Terazosin",
+            "td2": "Hytrin",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Sumatriptan",
+            "td2": "Imitrex",
+            "td3": "Antimigraine"
+        },
+        {
+            "td1": "Raloxifene",
+            "td2": "Evista",
+            "td3": "Osteoporosis"
+        },
+        {
+            "td1": "Mirtazepine",
+            "td2": "Remeron",
+            "td3": "Antidepressant"
+        },
+        {
+            "td1": "Adalimumab",
+            "td2": "Humira",
+            "td3": "Immunosuppressant"
+        },
+        {
+            "td1": "Benztropine",
+            "td2": "Cogentin",
+            "td3": "Anti-Parkinson's"
+        },
+        {
+            "td1": "Baclofen",
+            "td2": "Gablofen",
+            "td3": ""
+        },
+        {
+            "td1": "Hydralazine",
+            "td2": "Apresoline",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Mupirocin",
+            "td2": "Bactroban",
+            "td3": "Antibiotic"
+        },
+        {
+            "td1": "Propranolol",
+            "td2": "Inderal",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Varenicline",
+            "td2": "Chantix",
+            "td3": "Anti-smoking"
+        },
+        {
+            "td1": "Verapamil",
+            "td2": "Verelan",
+            "td3": "Antihypertensive"
+        },
+        {
+            "td1": "Clotrimazole",
+            "td2": "Lotrimin",
+            "td3": "Antifungal"
+        },
+        {
+            "td1": "Phenytoin",
+            "td2": "Dilantin",
+            "td3": "Anticonvulsant"
+        },
+        {
+            "td1": "Pramipexole",
+            "td2": "Mirapex",
+            "td3": "Anti-Parkinson's"
+        },
+        {
+            "td1": "Liraglutide",
+            "td2": "Victoza",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Ticagrelor",
+            "td2": "Brilinta",
+            "td3": "Anticoagulant"
+        },
+        {
+            "td1": "Diclofenac",
+            "td2": "Voltaren",
+            "td3": "Analgesic (NSAID)"
+        },
+        {
+            "td1": "Saxagliptin",
+            "td2": "Onglyza",
+            "td3": "Antidiabetic"
+        },
+        {
+            "td1": "Lomitapide",
+            "td2": "Juxtapid",
+            "td3": "Cholesterol lowering"
+        },
+        {
+            "td1": "Tizanidine",
+            "td2": "Zanaflex",
+            "td3": "Muscle Relaxer"
+        },
+        {
+            "td1": "Amphetamine \/\r\n Dextroamphetamine",
+            "td2": "Adderall",
+            "td3": "ADHD"
+        },
+        {
+            "td1": "Zoster Vaccine",
+            "td2": "Zostavax",
+            "td3": "Shingles Vaccine"
+        },
+        {
+            "td1": "Ezetimibe\r\n Simvastatin",
+            "td2": "Vytorin",
+            "td3": "Cholesterol lowering"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Portal\\Admin\\": "api/v2/portal/admin/",
+            "Portal\\": "api/v2/portal/",
+            "Models\\": "api/v2/models/",
+            "Services\\": "api/v2/services/",
+            "Utils\\Middleware\\": "api/v2/utils/middleware/",
+            "Utils\\": "api/v2/utils/",
+            "system\\": "api/v2/system/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/framework",
+                "version": "1.0.3",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "framework/v1.0.3" },
+                "autoload": { "psr-4": { "Reunite\\Framework\\": "packages/framework/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/logger",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": {
+                    "psr-4": { "Reunite\\Logger\\": "packages/logger/src/" },
+                    "classmap": ["packages/logger/src/Facade.php"]
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/validator",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": {
+                    "psr-4": { "Reunite\\Validator\\": "packages/validator/src/" },
+                    "classmap": ["packages/validator/src/Facade.php"]
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/cache",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": {
+                    "psr-4": { "Reunite\\Cache\\": "packages/cache/src/" },
+                    "classmap": ["packages/cache/src/Facade.php"]
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/email",
+                "version": "1.0.1",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Email\\": "packages/email/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/sms",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Sms\\": "packages/sms/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/storage",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Storage\\": "packages/storage/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/pdf",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Pdf\\": "packages/pdf/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/spreadsheet",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Spreadsheet\\": "packages/spreadsheet/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/notification",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Notification\\": "packages/notification/src/" } }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "reunite/payment",
+                "version": "1.0.0",
+                "source": { "type": "git", "url": "https://github.com/reuniterx/reunite-library", "reference": "main" },
+                "autoload": { "psr-4": { "Reunite\\Payment\\": "packages/payment/src/" } }
+            }
+        }
+    ],
+    "require": {
+        "reunite/framework":    "1.0.3",
+        "reunite/logger":       "1.0.0",
+        "reunite/validator":    "1.0.0",
+        "reunite/cache":        "1.0.0",
+        "reunite/email":        "1.0.1",
+        "reunite/sms":          "1.0.0",
+        "reunite/storage":      "1.0.0",
+        "reunite/pdf":          "1.0.0",
+        "reunite/spreadsheet":  "1.0.0",
+        "reunite/notification": "1.0.0",
+        "reunite/payment":      "1.0.0",
+        "psr/log":              "^1.1 || ^2.0 || ^3.0",
+        "aws/aws-sdk-php":      "^3.0",
+        "mpdf/mpdf":            "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "fakerphp/faker":  "^1.23"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "api/v2/tests/"
+        }
+    }
+}

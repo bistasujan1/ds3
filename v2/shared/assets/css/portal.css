@@ -1,0 +1,51 @@
+/* ========================================
+   DS3 — Portal Layout (Bootstrap 5)
+   ======================================== */
+
+/* Layout — background and font handled by admin-skin.css via CSS variables */
+body.ds3-portal {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout shell, sidebar, topbar, and content area are handled by admin-skin.css */
+
+/* ---- Stat cards ---- */
+.stat-card {
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.stat-card .stat-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+/* ---- Cards ---- */
+.card {
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.card-header {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 600;
+}
+
+/* ---- Alert blink ---- */
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+

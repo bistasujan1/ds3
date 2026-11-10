@@ -1,0 +1,9 @@
+vendor/
+storage/logs/*.log
+storage/logs/
+.env
+*.env.local
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
